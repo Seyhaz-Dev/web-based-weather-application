@@ -1,0 +1,4 @@
+<template>
+    <h1>Dara Us</h1>
+    <p>If you have any questions, feel free to reach out!</p>
+</template>
