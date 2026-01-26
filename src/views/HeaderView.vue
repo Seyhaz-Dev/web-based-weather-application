@@ -13,6 +13,7 @@
         <nav class="hidden md:flex space-x-6">
           <a class="text-gray-600 hover:text-blue-600" href="/">Home</a>
           <a class="text-gray-600 hover:text-blue-600" href="/contact">Contact</a>
+          <a class="text-gray-600 hover:text-blue-600" href="/about">About</a>
         </nav>
 
         <!-- Button -->
