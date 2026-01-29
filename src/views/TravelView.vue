@@ -1,0 +1,3 @@
+<template>
+    Travel Page             
+</template>
