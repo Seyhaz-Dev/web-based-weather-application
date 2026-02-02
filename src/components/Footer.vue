@@ -10,7 +10,7 @@
           <span class="text-xl font-semibold text-white hover:text-yellow-300">Sky Solution</span>
         </div>
 
-        <div class="flex justify-center items-center gap-4">
+          <div class="flex justify-center items-center gap-4">
           <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" class="h-11" />
           <img src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" class="h-35" />
         </div>
