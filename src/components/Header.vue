@@ -7,7 +7,7 @@
     referrerpolicy="no-referrer"
   />
 
-  <header class="bg-[#222222] text-white font-sans">
+  <header class="bg-[#222222] text-white font-sans fixed top-0 right-0 left-0 ">
     <!-- TOP BAR -->
     <div class="max-w-[1200px] mx-auto flex items-stretch h-[60px]">
 
