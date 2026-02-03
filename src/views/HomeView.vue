@@ -42,7 +42,7 @@ import { ref } from "vue"
     <!-- LEFT BAR -->
     <aside class="w-20 bg-black/40 flex flex-col items-center py-6">
       <span class="text-2xl mt-6"><i class="fa-solid fa-cloud-rain"></i></span>
-    </aside>
+    </aside>  
 
     <!-- MAIN -->
     <main class="flex-1 p-8">
