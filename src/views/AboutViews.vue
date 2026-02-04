@@ -8,7 +8,7 @@
   <div class="about-page">
 
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero mt-10">
       <h1>About Us</h1>
       <p>
         Helping people make confident decisions through trusted weather

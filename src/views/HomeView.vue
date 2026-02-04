@@ -1,4 +1,6 @@
 <script setup>
+
+
 import { ref } from "vue"
 
           // main state
@@ -40,12 +42,18 @@ import { ref } from "vue"
   <div class="flex h-screen bg-gradient-to-br from-slate-700 to-slate-900 text-white">
 
     <!-- LEFT BAR -->
+<<<<<<< Updated upstream
     <aside class="w-20 bg-black/40 flex flex-col items-center py-6">
       <span class="text-2xl mt-6"><i class="fa-solid fa-cloud-rain"></i></span>
     </aside>  
+=======
+    <aside class="w-20 bg-black/40 flex flex-col items-center py-6 ">
+      <span class="text-2xl mt-[150px]"><i class="fa-solid fa-cloud-rain"></i></span>
+    </aside>
+>>>>>>> Stashed changes
 
     <!-- MAIN -->
-    <main class="flex-1 p-8">
+    <main class="flex-1 p-8 mt-28">
 
       <!-- INPUT -->
       <input
@@ -70,7 +78,7 @@ import { ref } from "vue"
       </div>
 
       <!-- FORECAST -->
-      <div class="bg-white/15 rounded-2xl p-5 mt-10">
+      <div class="bg-white/15 rounded-2xl p-5 mt-12">
         <h3 class="mb-4 font-semibold">24-hour forecast</h3>
         <div class="flex justify-between text-center">
           <div v-for="(item, i) in hourly" :key="i">
@@ -84,10 +92,10 @@ import { ref } from "vue"
     </main>
 
     <!-- RIGHT PANEL -->
-    <aside class="w-64 bg-black/40 p-6">
+    <aside class="w-64 bg-black/40 p-6 mt-25">
       <h3 class="font-semibold mb-4">Air Conditions</h3>
 
-            <ul class="space-y-4 text-sm">
+            <ul class="space-y-4 text-sm mt-12">
                 <li class="flex items-center gap-2">
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M6.05 17.95l-1.414 1.414M18.364 18.364l-1.414-1.414M6.05 6.05L4.636 4.636M12 8a4 4 0 100 8 4 4 0 000-8z"/>
