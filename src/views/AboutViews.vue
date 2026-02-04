@@ -13,8 +13,8 @@
       <p>
         Helping people make confident decisions through trusted weather
         and climate intelligence.
-      </p>
-    </section>
+        </p>
+      </section>
 
     <!-- Intro -->
     <section class="intro">
