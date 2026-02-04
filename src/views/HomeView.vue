@@ -1,6 +1,7 @@
 <script setup>
 
 
+
 import { ref } from "vue"
 
           // main state
@@ -84,6 +85,7 @@ import { ref } from "vue"
             <p class="font-semibold">{{ item.temp }}°</p>
           </div>
         </div>
+
       </div>
 
     </main>
