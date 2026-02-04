@@ -42,15 +42,12 @@ import { ref } from "vue"
   <div class="flex h-screen bg-gradient-to-br from-slate-700 to-slate-900 text-white">
 
     <!-- LEFT BAR -->
-<<<<<<< Updated upstream
-    <aside class="w-20 bg-black/40 flex flex-col items-center py-6">
+
+    <aside class="w-20 bg-black/40 flex flex-col items-center py-6 mt-20">
       <span class="text-2xl mt-6"><i class="fa-solid fa-cloud-rain"></i></span>
     </aside>  
-=======
-    <aside class="w-20 bg-black/40 flex flex-col items-center py-6 ">
-      <span class="text-2xl mt-[150px]"><i class="fa-solid fa-cloud-rain"></i></span>
-    </aside>
->>>>>>> Stashed changes
+
+   
 
     <!-- MAIN -->
     <main class="flex-1 p-8 mt-28">
