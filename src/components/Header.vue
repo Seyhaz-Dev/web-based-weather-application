@@ -28,7 +28,7 @@ const store = useStore()
       <div class="flex items-center pr-13">
         <router-link to="/" class="flex items-center gap-2">
           <img src="/public/image.png" class="h-10 w-auto" />
-          <span class="text-2xl font-bold tracking-tight">Sky solution</span>
+          <span class="text-2xl font-bold tracking-tight">Nimbus Travel</span>
         </router-link>
       </div>
 
