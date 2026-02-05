@@ -5,7 +5,7 @@ import router from './router'
 
 const app = createApp(App)
 
-app.use(store)
-
+ // Vuex store
+app.use(router)  // Vue router
 
 app.mount('#app')

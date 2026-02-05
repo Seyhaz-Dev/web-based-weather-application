@@ -4,9 +4,13 @@ import ContactView from '../views/ContactView.vue'
 import AboutView from '../views/AboutViews.vue'
 import AccurateView from '@/views/AccurateView.vue'
 import ExploreView from '@/views/ExploreView.vue'
+import HistoryView from '@/views/HistoryView.vue'
+import ValueView from '@/views/ValueView.vue'
 import ServicesView from '../views/ServicesView.vue'
 import TravelView from '../views/TravelView.vue'
 import RegisterView from '@/views/RegisterView.vue'
+import PeopleView from '@/views/PeopleView.vue'
+// import HistoryView from '@/views/HistoryView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [ 
@@ -41,6 +45,21 @@ const router = createRouter({
       path: '/explore',
       name: 'explore',
       component: ExploreView,
+    },
+    {
+      path: '/history',
+      name: 'history',
+      component: HistoryView,
+    },
+    {
+      path: '/value',
+      name: 'value',
+      component: ValueView,
+    },
+    {
+      path: '/People',
+      name: 'people',
+      component: PeopleView,
     },
 
     {
