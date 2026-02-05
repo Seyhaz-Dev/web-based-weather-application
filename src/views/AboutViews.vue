@@ -6,7 +6,7 @@
 
 <template>
   <div class="about-page">
-
+    
     <!-- Hero -->
     <section class="hero mt-10">
       <h1>About Us</h1>
