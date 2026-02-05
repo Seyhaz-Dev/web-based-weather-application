@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
 import AboutView from '../views/AboutViews.vue'
+import AccurateView from '@/views/AccurateView.vue'
+import ExploreView from '@/views/ExploreView.vue'
 import ServicesView from '../views/ServicesView.vue'
 import TravelView from '../views/TravelView.vue'
 import RegisterView from '@/views/RegisterView.vue'
@@ -29,6 +31,16 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: AboutView,
+    },
+    {
+      path: '/accurate',
+      name: 'accurate',
+      component: AccurateView,
+    },
+    {
+      path: '/explore',
+      name: 'explore',
+      component: ExploreView,
     },
 
     {
