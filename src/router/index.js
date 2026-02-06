@@ -8,7 +8,7 @@ import HistoryView from '@/views/HistoryView.vue'
 import ValueView from '@/views/ValueView.vue'
 import ServicesView from '../views/ServicesView.vue'
 import TravelView from '../views/TravelView.vue'
-
+import PeopleView from '../views/PeopleView.vue'
 import LoginView from '@/views/LoginView.vue'
 import SignView from '@/views/SignView.vue'
 import DashboardView from '../views/Dashboard.vue'
