@@ -1,4 +1,5 @@
 <template>
+
   <div class="about-page font-sans text-gray-800">
 
     <!-- HERO SECTION: Modern Two-Column Look -->
@@ -12,6 +13,7 @@
       </h1>
       <p class="text-lg md:text-xl text-green-100 leading-relaxed max-w-xl">
         Empowering communities to make confident decisions with accurate forecasts, climate research, and scientific expertise.
+
       </p>
     </div>
 
