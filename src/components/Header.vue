@@ -28,7 +28,7 @@ const store = useStore()
       <div class="flex items-center pr-13">
         <router-link to="/" class="flex items-center gap-2">
           <img src="/public/image.png" class="h-10 w-auto" />
-          <span class="text-2xl font-bold tracking-tight">Sky solution</span>
+          <span class="text-2xl font-bold tracking-tight">Nimbus Travel</span>
         </router-link>
       </div>
 
@@ -95,28 +95,6 @@ const store = useStore()
       </div>
     </div>
 
-    <!-- SUB NAV -->
-    <div class="bg-[#333333] border-t border-gray-700">
-      <div class="max-w-[1200px] mx-auto flex items-center justify-between h-[50px] px-4">
 
-        <!-- SEARCH + SETTINGS -->
-        <div class="flex items-center m-auto justify-center gap-3">
-          <!-- SEARCH -->
-          <div class="relative">
-            <input
-              type="text"
-              placeholder="Search location..."
-              class="h-9 w-160 pl-9 pr-3 text-sm bg-[#222222] border border-gray-600 placeholder-gray-400 focus:outline-none focus:border-[#C6E207] rounded-full"
-            />
-            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
-          </div>
-
-          <!-- SETTINGS -->
-          <button class="h-9 px-3 rounded-md border border-gray-600 hover:bg-[#444444]">
-            <i class="fa-solid fa-gear"></i>
-          </button>
-        </div>
-      </div>
-    </div>
   </header>
 </template>
