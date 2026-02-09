@@ -1,9 +1,4 @@
 <template>
-<<<<<<< Updated upstream
-    <link rel="stylesheet" href="src/style.css">
-    <h1>Services</h1>
-</template>
-=======
   <section class="w-full bg-white">
 
     <!-- Top Images -->
