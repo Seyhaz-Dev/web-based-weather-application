@@ -62,7 +62,7 @@
 
       <div class="grid sm:grid-cols-2 gap-4">
         <div class="flex items-center gap-3">
-          <div class="bg-gradient-to-br from-cyan-4 00 to-blue-300 p-3 rounded-full">📞</div>
+          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full"><i class="fas fa-phone"></i></div>
           <div>
             <p class="font-semibold">Call Us</p>
             <p class="text-sm">+123-234-1234</p>
@@ -70,7 +70,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full">✉️</div>
+          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full"><i class="far fa-envelope"></i></div>
           <div>
             <p class="font-semibold">Email Us</p>
             <p class="text-sm">hello@awesome.com</p>
@@ -78,7 +78,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full">🌐</div>
+          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full"><i class="fas fa-globe"></i></div>
           <div>
             <p class="font-semibold">Website</p>
             <p class="text-sm">www.awesome.com</p>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full">📍</div>
+          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full"><i class="fas fa-map-pin"></i></div>
           <div>
             <p class="font-semibold">Address</p>
             <p class="text-sm">99 Rising St, Big City</p>
