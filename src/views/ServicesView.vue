@@ -4,17 +4,17 @@
     <!-- Top Images -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full h-64 overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+        src="https://cdn.sanity.io/images/nxpteyfv/goguides/732404611d21048a157c8e11af5e2a03422d39c8-1600x1066.jpg"
         class="w-full h-full object-cover"
         alt="Scenic view 1"
       />
       <img
-        src="https://images.unsplash.com/photo-1603398938378-e54d8f7ed04f"
+        src="https://panamajack.com/cdn/shop/articles/bigstock-Beach-Chairs-With-Umbrella-And-129286676.jpg?v=1578502258"
         class="w-full h-full object-cover"
         alt="Scenic view 2"
       />
       <img
-        src="https://images.unsplash.com/photo-1608889175173-8a0d59d65c57"
+        src="https://www.thetimes.com/imageserver/image/%2F3ece3647-290e-432a-a423-c9ab59284a56.jpg?crop=1600%2C900%2C0%2C0&resize=1200"
         class="w-full h-full object-cover"
         alt="Scenic view 3"
       />
