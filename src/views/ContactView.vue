@@ -1,111 +1,134 @@
 <template>
-
-  
-  <section class="relative mt-22 ">
-    <div class="h-[300px] bg-cover bg-center flex items-center justify-center"
-         style="background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216');">
-      <div class="bg-black bg-opacity-50 absolute inset-0"></div>
-      <div class="relative text-center">
-        <h1 class="text-4xl font-bold text-yellow-400">Contact Us</h1>
-        
-      </div>
-    </div>
-  </section>
-
-
-  <section class="max-w-6xl mx-auto py-12 px-4 grid md:grid-cols-2 gap-10">
-
-  
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h2 class="text-xl font-semibold mb-4">Your Information</h2>
-
-      <div class="space-y-4">
-        <div>
-          <label class="block text-sm mb-1">Your Name</label>
-          <input type="text" placeholder="Full Name"
-            class="w-full border rounded-lg p-2 focus:outline-yellow-400" />
-        </div>
-
-        <div>
-          <label class="block text-sm mb-1">Your Email</label>
-          <input type="email" placeholder="Email Address"
-            class="w-full border rounded-lg p-2 focus:outline-yellow-400" />
-        </div>
-
-        <div>
-          <label class="block text-sm mb-1">Subject</label>
-          <input type="text" placeholder="Subject"
-            class="w-full border rounded-lg p-2 focus:outline-yellow-400" />
-        </div>
-
-        <div>
-          <label class="block text-sm mb-1">Your Message</label>
-          <textarea rows="5" placeholder="Message"
-            class="w-full border rounded-lg p-2 focus:outline-yellow-400"></textarea>
-        </div>
-
-        <button
-          class="bg-gradient-to-br from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-lg">
-          SEND MESSAGE
-        </button>
-      </div>
-    </div>
-
+  <div class="min-h-screen bg-[#050505] text-white font-sans selection:bg-lime-400/30">
     
-    <div>
-      <p class=" italic">Contact Us</p>
-      <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
-      <p class="text-gray-600 mb-6">
-        We would love to hear from you. Reach out using any of the methods below
-        and our team will respond as soon as possible.
-      </p>
+    <header class="relative h-[40vh] flex items-center justify-center overflow-hidden border-b border-white/5">
+      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072')] bg-cover bg-center opacity-30 grayscale"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
+      
+      <div class="relative z-10 text-center">
+        <span class="text-lime-400 text-[10px] font-black uppercase tracking-[0.4em] mb-4 block">Communication Protocol</span>
+        <h1 class="text-6xl font-black tracking-tighter uppercase italic">Contact <span class="text-lime-400">Node</span></h1>
+      </div>
+    </header>
 
-      <div class="grid sm:grid-cols-2 gap-4">
-        <div class="flex items-center gap-3">
-          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full"><i class="fas fa-phone"></i></div>
-          <div>
-            <p class="font-semibold">Call Us</p>
-            <p class="text-sm">+123-234-1234</p>
+    <main class="max-w-7xl mx-auto py-24 px-8 grid lg:grid-cols-2 gap-20">
+      
+      <div class="space-y-12">
+        <div>
+          <h2 class="text-4xl font-black uppercase tracking-tight mb-6">Get in <span class="text-lime-400">Touch</span></h2>
+          <p class="text-gray-400 text-lg leading-relaxed max-w-md">
+            Have questions about atmospheric data or expedition logistics? Reach out to our central command.
+          </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-8">
+          <div class="p-6 bg-white/5 border border-white/10 rounded-2xl hover:border-lime-400/50 transition-colors group">
+            <i class="fa-solid fa-ghost text-lime-400 mb-4 text-xl"></i>
+            <p class="text-[10px] font-black uppercase text-gray-500 tracking-widest mb-1">Signal Us</p>
+            <p class="font-bold text-white">+123-234-1234</p>
+          </div>
+
+          <div class="p-6 bg-white/5 border border-white/10 rounded-2xl hover:border-lime-400/50 transition-colors group">
+            <i class="fa-solid fa-satellite text-lime-400 mb-4 text-xl"></i>
+            <p class="text-[10px] font-black uppercase text-gray-500 tracking-widest mb-1">Data Stream</p>
+            <p class="font-bold text-white">hello@nimbus.com</p>
           </div>
         </div>
 
-        <div class="flex items-center gap-3">
-          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full"><i class="far fa-envelope"></i></div>
-          <div>
-            <p class="font-semibold">Email Us</p>
-            <p class="text-sm">hello@awesome.com</p>
-          </div>
-        </div>
-
-        <div class="flex items-center gap-3">
-          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full"><i class="fas fa-globe"></i></div>
-          <div>
-            <p class="font-semibold">Website</p>
-            <p class="text-sm">www.awesome.com</p>
-          </div>
-        </div>
-
-        <div class="flex items-center gap-3">
-          <div class="bg-gradient-to-br from-cyan-400 to-blue-300 p-3 rounded-full"><i class="fas fa-map-pin"></i></div>
-          <div>
-            <p class="font-semibold">Address</p>
-            <p class="text-sm">99 Rising St, Big City</p>
+        <div class="pt-8 border-t border-white/5">
+          <p class="text-[10px] font-black uppercase text-gray-500 tracking-widest mb-6">Network Nodes</p>
+          <div class="flex gap-4">
+            <a v-for="icon in ['facebook', 'instagram', 'telegram', 'whatsapp']" :key="icon" href="#" 
+               class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-lime-400 hover:text-black transition-all">
+              <i :class="['fab', 'fa-' + icon]"></i>
+            </a>
           </div>
         </div>
       </div>
 
-      <div class="mt-6">
-        <p class="font-semibold mb-2">Follow Us On</p>
-        <div class="flex gap-3">
-          <span class="bg-gradient-to-br from-cyan-400 to-blue-300 p-2 rounded-full"><i class="fab fa-facebook"></i></span>
-          <span class="bg-gradient-to-br from-cyan-400 to-blue-300 p-2 rounded-full"><i class="fab fa-instagram"></i></span>
-          <span class="bg-gradient-to-br from-cyan-400 to-blue-300 p-2 rounded-full"><i class="fab fa-telegram"></i></span>
-          <span class="bg-gradient-to-br from-cyan-400 to-blue-300 p-2 rounded-full"><i class="fab fa-whatsapp"></i></span>
+      <div class="relative">
+        <div class="absolute -inset-1 bg-gradient-to-br from-lime-400/20 to-cyan-500/20 blur-2xl opacity-50"></div>
+        <div class="relative bg-[#0a0a0a] border border-white/10 p-10 rounded-3xl shadow-2xl">
+          <form @submit.prevent="sendMessage" class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="space-y-2">
+                <label class="text-[10px] font-black uppercase tracking-widest text-gray-500 ml-1">Identity</label>
+                <input v-model="form.name" type="text" placeholder="Full Name" required
+                  class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-lime-400 transition-colors placeholder:text-gray-700" />
+              </div>
+              <div class="space-y-2">
+                <label class="text-[10px] font-black uppercase tracking-widest text-gray-500 ml-1">Return Path</label>
+                <input v-model="form.email" type="email" placeholder="Email Address" required
+                  class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-lime-400 transition-colors placeholder:text-gray-700" />
+              </div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="text-[10px] font-black uppercase tracking-widest text-gray-500 ml-1">Subject</label>
+              <input v-model="form.subject" type="text" placeholder="Subject" required
+                class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-lime-400 transition-colors placeholder:text-gray-700" />
+            </div>
+
+            <div class="space-y-2">
+              <label class="text-[10px] font-black uppercase tracking-widest text-gray-500 ml-1">Message Body</label>
+              <textarea v-model="form.message" rows="5" placeholder="Transmission..." required
+                class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-lime-400 transition-colors placeholder:text-gray-700"></textarea>
+            </div>
+
+            <button :disabled="isSending" type="submit"
+              class="w-full bg-white text-black font-black uppercase text-[11px] tracking-[0.2em] py-5 rounded-xl hover:bg-lime-400 transition-all active:scale-95 disabled:opacity-50">
+              <span v-if="!isSending">Transmit Message</span>
+              <span v-else>Transmitting...</span>
+            </button>
+          </form>
+          
+          <p v-if="status" class="mt-4 text-center text-[10px] font-bold uppercase tracking-widest text-lime-400">
+            {{ status }}
+          </p>
         </div>
       </div>
-    </div>
+    </main>
 
-  </section>
-
-   
+  </div>
 </template>
+
+<script setup>
+import { ref, reactive } from 'vue'
+import { supabase } from '../supabase' //
+
+const isSending = ref(false)
+const status = ref("")
+
+const form = reactive({
+  name: '',
+  email: '',
+  subject: '',
+  message: ''
+})
+
+async function sendMessage() {
+  isSending.value = true
+  status.value = ""
+
+
+  const { error } = await supabase
+    .from('contact_messages')
+    .insert([
+      { 
+        name: form.name, 
+        email: form.email, 
+        subject: form.subject, 
+        message: form.message 
+      }
+    ])
+
+  if (error) {
+    status.value = "Transmission Failed: " + error.message
+  } else {
+    status.value = "Signal Received Successfully."
+    form.name = ''; form.email = ''; form.subject = ''; form.message = '';
+  }
+  
+  isSending.value = false
+}
+</script>
